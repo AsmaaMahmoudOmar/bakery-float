@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* common selectors between sections*/
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 22px;
+    padding-top: 20px;
+}
+h3,
+h1,
+h4 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    padding: 20px 0;
+}
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 2;
+    padding: 10px 0;
+}
+.text-align {
+    text-align: center;
+}
+
+.bg-color {
+    background-color: #f8f8f8;
+}
+.sections-margin {
+    margin-top: 50px;
+    padding: 50px;
+}
+.font-paragraph {
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+}
+.sec-width {
+    width: 48%;
+}
+.width-photo {
+    width: 100%;
+}
+.display {
+    display: inline-block;
+}
+.vertical-align {
+    vertical-align: middle;
+}
+.text-margin {
+    margin-right: 40px;
+}
+.float-left {
+    float: left
+}
+.clear-fix {
+    clear: both;
+}
+.span-img {
+    width: 7%;
+}
+.info {
+    padding-left: 20px;
+}
+ul {
+    list-style: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 20px 0;
+}
+li {
+    margin-bottom: 20px;
+}
+/* section-one */
+.home p {
+    font-size: 30px;
+}
+
+.home {
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 0 50px;
+}
+#logo {
+    width: 30%;
+    float: left;
+    padding-top: 15px;
+}
+#logo img{
+    width: 60%;
+}
+#Icons {
+    float: right;
+}
+#Icons a{
+    display: inline-block;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 18px;
+    padding:30px 16px ;
+    font-family: 'Alegreya', serif;
+}
+#Icons a:hover{
+    color: #8e7754;
+}
+.caption {
+    padding-top: 40px;
+}
+button {
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.home #btn1 {
+    background-color: #8e7754;
+    border-color: #8e7754;
+    margin-right: 10px;
+}
+.buttons button:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    cursor: pointer;
+}
+.mouse {
+    border-radius: 44%;
+    padding: 17px 10px;
+    border: 2px solid #cec9c9;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.mouse span {
+    width: 8px;
+    height: 8px;
+    background-color: #cec9c9;
+    border-radius: 50%;
+}
+.mouse:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+/* section two */
+.section-two li img {
+    border: gainsboro 1px solid;
+    border-radius: 50%;
+}
+/* section three */
+.item {
+    width: 30%;
+    margin: 30px 10px 20px 30px;
+}
+
+.cont-info span img {
+    background-color: #8e7754;
+    border-radius: 50%;
+    border: #8e7754 1px solid;
+}
+/* section-five */
+.about {
+    background-color: #403D38;
+    padding: 50px;
+}
+.about-info {
+    width: 25%;
+}
+.about-info h4 {
+    color: #f8f8f8;
+    font-size: 17px;
+}
+.about-info li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 20px;
+    color: #969696;
+    font-size: 18;
+    margin-right: 10px;
+}
+.about-info p {
+    color: #969696;
+    font-size: 18;
+}
+#details {
+    background: url("../images/contact-details-map.png") no-repeat center;
+}
+/* footer last section */
+.footer {
+    background-color: #353330;
+    padding: 50px;
+}
+.footer a img {
+    width: 3.5%;
+    border-radius: 50%;
+    background-color: #4d4b4b;
+    display: inline-block;
+    margin-top: 20px;
+}
+.facebook:hover {
+    background-color: #3B5998;
+}
+.google:hover {
+    background-color: #DD4B39;
+}
+.twitter:hover,
+.linkedin:hover {
+    background-color: #00ACED;
+}
